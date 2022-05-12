@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Roboto Regular';
+  src: url(../fonts/Roboto.woff2),
+       url(../fonts/Roboto.woff);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto Bold';
+  src: url(../fonts/Robotobold.woff2),
+       url(../fonts/Robotobold.woff);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Montserrat Black';
+  src: url(../fonts/Montserrat-Black.woff2),
+       url(../fonts/Montserrat-Black.woff);
+  font-weight: 900;
+}

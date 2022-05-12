@@ -1,0 +1,8 @@
+.lead__image {
+  position: absolute;
+  right: 0;
+  height: 610px;
+  max-width: 52%;
+  object-fit: cover;
+  object-position: left;
+}

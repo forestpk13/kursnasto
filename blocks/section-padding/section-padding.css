@@ -1,0 +1,19 @@
+.section-padding {
+  padding-left: calc((100vw - 1024px)/(1440 - 1024) * (160 - 45) + 45px);
+  padding-right: calc((100vw - 1024px)/(1440 - 1024) * (160 - 45) + 45px);
+  box-sizing: border-box;
+}
+
+@media screen and (min-width:1440px) {
+  .section-padding {
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+}
+
+@media screen and (max-width:1024px) {
+  .section-padding {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+}

@@ -1,0 +1,18 @@
+.lead__description {
+  position: relative;
+  max-width: 50%;
+  padding-bottom: 53.5px;
+}
+
+.lead__description::before {
+  position: absolute;
+  bottom: 16.5px;
+  left: -27px;
+  width: 227px;
+  height: 137px;
+  content: '';
+  background-image: url(../../../images/lead-yellow-object.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+}

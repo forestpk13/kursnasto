@@ -1,0 +1,6 @@
+.header__links-list_content_menu {
+  justify-content: space-around;
+  height: 100%;
+  max-width: 440px;
+  margin: 10px auto 0;
+}

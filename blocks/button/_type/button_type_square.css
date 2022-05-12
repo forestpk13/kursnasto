@@ -1,0 +1,9 @@
+.button_type_square {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.75px;
+  color: #367BF5;
+  border: 1px solid #367BF5;
+  border-radius: 6px;
+  text-transform: uppercase;
+}

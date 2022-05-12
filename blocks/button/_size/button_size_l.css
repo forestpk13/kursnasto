@@ -1,0 +1,10 @@
+.button_size_l {
+  padding: 11px 44.7px 11px 44.7px;
+}
+
+@media screen and (max-width: 1024px) {
+  .button_size_l  {
+    padding-left: calc((100vw - 768px)/(1024 - 768) * (44.7 - 22) + 22px);
+    padding-right: calc((100vw - 768px)/(1024 - 768) * (44.7 - 22) + 22px);
+  }
+}

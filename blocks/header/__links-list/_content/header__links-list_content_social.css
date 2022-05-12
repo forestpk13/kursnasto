@@ -1,0 +1,13 @@
+.header__links-list_content_social {
+  margin-left: calc(100% - 369px);
+  justify-content: space-between;
+  align-items: center;
+  max-width: 369px;
+}
+
+@media screen and (max-width: 997px) {
+  .header__links-list_content_social {
+    margin-left: 22px;
+
+  }
+}
